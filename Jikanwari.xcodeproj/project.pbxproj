@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010ADA501A9134726420E2B1 /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC41B8701A4CAA73C4215C3 /* Timetable.swift */; };
+		05A7E5F11A4ABA57133BF64E /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151A7F266FCC2705213E047 /* App.swift */; };
+		0665977B4807D317E056655D /* ClassWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D73A9F71B4C9E10309F0931 /* ClassWidgets.swift */; };
+		07C72692D2E693F43A651D26 /* y5-2026-late.json in Resources */ = {isa = PBXBuildFile; fileRef = 98F326144CDD1849C3AEA2BE /* y5-2026-late.json */; };
+		0F7699A27A9BEFF7D97F02A3 /* BreakAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B882CF5FF80E7595EC3C7 /* BreakAttributes.swift */; };
+		1405CC7F03C5B102A44E71D3 /* NextClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AED3B3014B2162F3AA23D99 /* NextClass.swift */; };
+		152F8B45ACB5E92560499723 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 73A349AB3BC4E9B8607AE199 /* PrivacyInfo.xcprivacy */; };
+		246361A7CC9161248EF3F5CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30D7C4AF08022F39231A9C3B /* Localizable.strings */; };
+		2D5F7161CF0411066A24795D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4115AEA5DA95B263A10514 /* Assets.xcassets */; };
+		30E6948F24620FF04DCA7C6C /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E093B79F06901229B3C161 /* Secrets.swift */; };
+		33C2DD82FCC69C7108C42880 /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC41B8701A4CAA73C4215C3 /* Timetable.swift */; };
+		34A05EC5F044F13174743057 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439BCFBD9E54C9556AEEDBB /* Notifier.swift */; };
+		36185DEC7361A2665F5F3BFD /* SchoolCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A6E487DDB881B9C6D562F1 /* SchoolCatalog.swift */; };
+		3C2D03EB351C54AB47B9924F /* AppShortcuts.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D02AF218373C3C7494181C /* AppShortcuts.strings */; };
+		3FFD6D6215B0B27237273134 /* ManualTimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E504B3172E0FEE16F0670D /* ManualTimetableView.swift */; };
+		599BF44B86750F51846ED7AE /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E749E00A79E19AAB514378 /* PrivacyView.swift */; };
+		5FDB12541C5B22C461007FF1 /* JikanwariWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0CE32221A6E8251AD15D3 /* JikanwariWidget.swift */; };
+		69A7E7F6B8BCF44A09298F56 /* LiveActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D6FE370663AAEDFE586846 /* LiveActivities.swift */; };
+		87FF0237D010F59F3CDDABE2 /* NextClassIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA428C257C0566ED4A8A79B /* NextClassIntent.swift */; };
+		938809F956B70473F47F26A5 /* JikanwariIntents.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 88E14D72117805AD1B5C3965 /* JikanwariIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		93BB8C8DE2653D540C62A7EE /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B33317EC54FF6083F23A20 /* Memo.swift */; };
+		97DB8FA54E3C271F06EA111E /* TimetableReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26559D6873031E3C96EE319B /* TimetableReader.swift */; };
+		9BC05EEEFEB1ABF466D753A4 /* CalendarHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901E320C1740967F1FE0D8C /* CalendarHaptics.swift */; };
+		A3AFA694786EA13C8F622F46 /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF2D9775CF131D9F5D889A /* ImportView.swift */; };
+		B2478B274F658499CE24CAD5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9369AC0599FF563E27C8B3 /* OnboardingView.swift */; };
+		B530860D8FAB18C79BD4F0D6 /* OnboardingHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561740E35589184E198CB898 /* OnboardingHaptics.swift */; };
+		CBBF56821BB37BEE2347BAAA /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC41B8701A4CAA73C4215C3 /* Timetable.swift */; };
+		D87429242BD14A66A0F6FE3E /* NextClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AED3B3014B2162F3AA23D99 /* NextClass.swift */; };
+		DD0AD51E8C7C2DD2D5FCD3F5 /* CalendarReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C463E899C123462642F6B /* CalendarReviewView.swift */; };
+		DD9AA6B79A367E8091AB8C41 /* JikanwariWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6853894D0A1A723BFA261368 /* JikanwariWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E43303B90F44777A696A625B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 575AB3AB56F0D22F3EEC88B6 /* PrivacyInfo.xcprivacy */; };
+		EE07A600F0ECDB395F1CCA2B /* NextClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AED3B3014B2162F3AA23D99 /* NextClass.swift */; };
+		FA8FCC319E748A5FB77158C4 /* BreakAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B882CF5FF80E7595EC3C7 /* BreakAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FFCDC01AF32E32D11E0C26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F97BF433553C1CC527A26660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8B8F7E53AA30B0CFBF481A8;
+			remoteInfo = JikanwariIntents;
+		};
+		AC24BC40B043CB36630FB648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F97BF433553C1CC527A26660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93345BA71E6FF3CD8B8C375D;
+			remoteInfo = JikanwariWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2A98D85DBA8462831365EF5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD9AA6B79A367E8091AB8C41 /* JikanwariWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6ACC54969ABCA8381B3BC73 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				938809F956B70473F47F26A5 /* JikanwariIntents.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0151A7F266FCC2705213E047 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		0A9369AC0599FF563E27C8B3 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		14A6E487DDB881B9C6D562F1 /* SchoolCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCatalog.swift; sourceTree = "<group>"; };
+		15B1B03328DA251FB4DE4DA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		20DA2A8CE6BB8D33512AA8F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		26559D6873031E3C96EE319B /* TimetableReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableReader.swift; sourceTree = "<group>"; };
+		2983B55DA5CF3449F9C52132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3EA428C257C0566ED4A8A79B /* NextClassIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextClassIntent.swift; sourceTree = "<group>"; };
+		4C4115AEA5DA95B263A10514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561740E35589184E198CB898 /* OnboardingHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingHaptics.swift; sourceTree = "<group>"; };
+		575AB3AB56F0D22F3EEC88B6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5863CFF73AC34C0CC413D305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5AED3B3014B2162F3AA23D99 /* NextClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextClass.swift; sourceTree = "<group>"; };
+		62E093B79F06901229B3C161 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		639BFB625BA576D6C41593AC /* JikanwariIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JikanwariIntents.entitlements; sourceTree = "<group>"; };
+		6853894D0A1A723BFA261368 /* JikanwariWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = JikanwariWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A349AB3BC4E9B8607AE199 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		75D02AF218373C3C7494181C /* AppShortcuts.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = AppShortcuts.strings; path = ja.lproj/AppShortcuts.strings; sourceTree = "<group>"; };
+		789A0F0BD6B5BE624F22AC73 /* Jikanwari.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Jikanwari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D73A9F71B4C9E10309F0931 /* ClassWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassWidgets.swift; sourceTree = "<group>"; };
+		88E14D72117805AD1B5C3965 /* JikanwariIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = JikanwariIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEF2D9775CF131D9F5D889A /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		8FC290EDB33FF9DE8A398345 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		98F326144CDD1849C3AEA2BE /* y5-2026-late.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "y5-2026-late.json"; sourceTree = "<group>"; };
+		A3B33317EC54FF6083F23A20 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		A439BCFBD9E54C9556AEEDBB /* Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		A9E504B3172E0FEE16F0670D /* ManualTimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualTimetableView.swift; sourceTree = "<group>"; };
+		B74C463E899C123462642F6B /* CalendarReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarReviewView.swift; sourceTree = "<group>"; };
+		B8E749E00A79E19AAB514378 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		C0D6FE370663AAEDFE586846 /* LiveActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivities.swift; sourceTree = "<group>"; };
+		C901E320C1740967F1FE0D8C /* CalendarHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHaptics.swift; sourceTree = "<group>"; };
+		CF0FFD673123C2B7F074557C /* JikanwariWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JikanwariWidget.entitlements; sourceTree = "<group>"; };
+		D1D0CE32221A6E8251AD15D3 /* JikanwariWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JikanwariWidget.swift; sourceTree = "<group>"; };
+		E7A3A5744E65FB99C119E556 /* Jikanwari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jikanwari.entitlements; sourceTree = "<group>"; };
+		EEC41B8701A4CAA73C4215C3 /* Timetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timetable.swift; sourceTree = "<group>"; };
+		F80B882CF5FF80E7595EC3C7 /* BreakAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakAttributes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		23E3EDEA841F8B0794E90FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789A0F0BD6B5BE624F22AC73 /* Jikanwari.app */,
+				88E14D72117805AD1B5C3965 /* JikanwariIntents.appex */,
+				6853894D0A1A723BFA261368 /* JikanwariWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		243B760AFB64396904881DF2 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				75D02AF218373C3C7494181C /* AppShortcuts.strings */,
+				5863CFF73AC34C0CC413D305 /* Info.plist */,
+				639BFB625BA576D6C41593AC /* JikanwariIntents.entitlements */,
+				3EA428C257C0566ED4A8A79B /* NextClassIntent.swift */,
+				575AB3AB56F0D22F3EEC88B6 /* PrivacyInfo.xcprivacy */,
+				30D7C4AF08022F39231A9C3B /* Localizable.strings */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		25F410A1354427EAF9FAAD07 = {
+			isa = PBXGroup;
+			children = (
+				243B760AFB64396904881DF2 /* Intents */,
+				6DE7CD7478F1BE19CE535115 /* Shared */,
+				36765AF4ED4B3BA1EA173B5B /* Sources */,
+				77F913B5C3AE07D3321AB890 /* Widget */,
+				23E3EDEA841F8B0794E90FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36765AF4ED4B3BA1EA173B5B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0151A7F266FCC2705213E047 /* App.swift */,
+				4C4115AEA5DA95B263A10514 /* Assets.xcassets */,
+				C901E320C1740967F1FE0D8C /* CalendarHaptics.swift */,
+				B74C463E899C123462642F6B /* CalendarReviewView.swift */,
+				8CEF2D9775CF131D9F5D889A /* ImportView.swift */,
+				20DA2A8CE6BB8D33512AA8F5 /* Info.plist */,
+				E7A3A5744E65FB99C119E556 /* Jikanwari.entitlements */,
+				C0D6FE370663AAEDFE586846 /* LiveActivities.swift */,
+				A9E504B3172E0FEE16F0670D /* ManualTimetableView.swift */,
+				A3B33317EC54FF6083F23A20 /* Memo.swift */,
+				5AED3B3014B2162F3AA23D99 /* NextClass.swift */,
+				A439BCFBD9E54C9556AEEDBB /* Notifier.swift */,
+				73A349AB3BC4E9B8607AE199 /* PrivacyInfo.xcprivacy */,
+				B8E749E00A79E19AAB514378 /* PrivacyView.swift */,
+				62E093B79F06901229B3C161 /* Secrets.swift */,
+				EEC41B8701A4CAA73C4215C3 /* Timetable.swift */,
+				26559D6873031E3C96EE319B /* TimetableReader.swift */,
+				7223ACD59EADA4C8FBB49DA8 /* School */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6DE7CD7478F1BE19CE535115 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F80B882CF5FF80E7595EC3C7 /* BreakAttributes.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7223ACD59EADA4C8FBB49DA8 /* School */ = {
+			isa = PBXGroup;
+			children = (
+				561740E35589184E198CB898 /* OnboardingHaptics.swift */,
+				0A9369AC0599FF563E27C8B3 /* OnboardingView.swift */,
+				14A6E487DDB881B9C6D562F1 /* SchoolCatalog.swift */,
+				98F326144CDD1849C3AEA2BE /* y5-2026-late.json */,
+			);
+			path = School;
+			sourceTree = "<group>";
+		};
+		77F913B5C3AE07D3321AB890 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				7D73A9F71B4C9E10309F0931 /* ClassWidgets.swift */,
+				2983B55DA5CF3449F9C52132 /* Info.plist */,
+				CF0FFD673123C2B7F074557C /* JikanwariWidget.entitlements */,
+				D1D0CE32221A6E8251AD15D3 /* JikanwariWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93345BA71E6FF3CD8B8C375D /* JikanwariWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C77CF410363BA570FA5C07 /* Build configuration list for PBXNativeTarget "JikanwariWidget" */;
+			buildPhases = (
+				02131B5A78B3A5CC50AC33CB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JikanwariWidget;
+			packageProductDependencies = (
+			);
+			productName = JikanwariWidget;
+			productReference = 6853894D0A1A723BFA261368 /* JikanwariWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A8B8F7E53AA30B0CFBF481A8 /* JikanwariIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B31FA68C26AD1AA30CC3673 /* Build configuration list for PBXNativeTarget "JikanwariIntents" */;
+			buildPhases = (
+				BFAF2F0E8EEDE75D48DDE0BA /* Sources */,
+				C76F118B587A50962C1C9B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JikanwariIntents;
+			packageProductDependencies = (
+			);
+			productName = JikanwariIntents;
+			productReference = 88E14D72117805AD1B5C3965 /* JikanwariIntents.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		B2F0ED167CE0C7F4732A1CFF /* Jikanwari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B074DB393FA3FDB571D170 /* Build configuration list for PBXNativeTarget "Jikanwari" */;
+			buildPhases = (
+				50E85999C804C170744CA86F /* Sources */,
+				EAC2AC4E43CA1162DC99DDF9 /* Resources */,
+				F2A98D85DBA8462831365EF5 /* Embed Foundation Extensions */,
+				F6ACC54969ABCA8381B3BC73 /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C88DD302E797C728EEE455 /* PBXTargetDependency */,
+				23CEF02CAA75C0BC57F147C4 /* PBXTargetDependency */,
+			);
+			name = Jikanwari;
+			packageProductDependencies = (
+			);
+			productName = Jikanwari;
+			productReference = 789A0F0BD6B5BE624F22AC73 /* Jikanwari.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F97BF433553C1CC527A26660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					93345BA71E6FF3CD8B8C375D = {
+						DevelopmentTeam = G6X2AA2PJX;
+						ProvisioningStyle = Automatic;
+					};
+					A8B8F7E53AA30B0CFBF481A8 = {
+						DevelopmentTeam = G6X2AA2PJX;
+						ProvisioningStyle = Automatic;
+					};
+					B2F0ED167CE0C7F4732A1CFF = {
+						DevelopmentTeam = G6X2AA2PJX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 19D63AA28A1F904B32DA33DA /* Build configuration list for PBXProject "Jikanwari" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ja,
+			);
+			mainGroup = 25F410A1354427EAF9FAAD07;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 23E3EDEA841F8B0794E90FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F0ED167CE0C7F4732A1CFF /* Jikanwari */,
+				A8B8F7E53AA30B0CFBF481A8 /* JikanwariIntents */,
+				93345BA71E6FF3CD8B8C375D /* JikanwariWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76F118B587A50962C1C9B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2D03EB351C54AB47B9924F /* AppShortcuts.strings in Resources */,
+				246361A7CC9161248EF3F5CF /* Localizable.strings in Resources */,
+				E43303B90F44777A696A625B /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC2AC4E43CA1162DC99DDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5F7161CF0411066A24795D /* Assets.xcassets in Resources */,
+				152F8B45ACB5E92560499723 /* PrivacyInfo.xcprivacy in Resources */,
+				07C72692D2E693F43A651D26 /* y5-2026-late.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02131B5A78B3A5CC50AC33CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7699A27A9BEFF7D97F02A3 /* BreakAttributes.swift in Sources */,
+				0665977B4807D317E056655D /* ClassWidgets.swift in Sources */,
+				5FDB12541C5B22C461007FF1 /* JikanwariWidget.swift in Sources */,
+				D87429242BD14A66A0F6FE3E /* NextClass.swift in Sources */,
+				33C2DD82FCC69C7108C42880 /* Timetable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E85999C804C170744CA86F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A7E5F11A4ABA57133BF64E /* App.swift in Sources */,
+				FA8FCC319E748A5FB77158C4 /* BreakAttributes.swift in Sources */,
+				9BC05EEEFEB1ABF466D753A4 /* CalendarHaptics.swift in Sources */,
+				DD0AD51E8C7C2DD2D5FCD3F5 /* CalendarReviewView.swift in Sources */,
+				A3AFA694786EA13C8F622F46 /* ImportView.swift in Sources */,
+				69A7E7F6B8BCF44A09298F56 /* LiveActivities.swift in Sources */,
+				3FFD6D6215B0B27237273134 /* ManualTimetableView.swift in Sources */,
+				93BB8C8DE2653D540C62A7EE /* Memo.swift in Sources */,
+				EE07A600F0ECDB395F1CCA2B /* NextClass.swift in Sources */,
+				34A05EC5F044F13174743057 /* Notifier.swift in Sources */,
+				B530860D8FAB18C79BD4F0D6 /* OnboardingHaptics.swift in Sources */,
+				B2478B274F658499CE24CAD5 /* OnboardingView.swift in Sources */,
+				599BF44B86750F51846ED7AE /* PrivacyView.swift in Sources */,
+				36185DEC7361A2665F5F3BFD /* SchoolCatalog.swift in Sources */,
+				30E6948F24620FF04DCA7C6C /* Secrets.swift in Sources */,
+				010ADA501A9134726420E2B1 /* Timetable.swift in Sources */,
+				97DB8FA54E3C271F06EA111E /* TimetableReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2F0E8EEDE75D48DDE0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1405CC7F03C5B102A44E71D3 /* NextClass.swift in Sources */,
+				87FF0237D010F59F3CDDABE2 /* NextClassIntent.swift in Sources */,
+				CBBF56821BB37BEE2347BAAA /* Timetable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23CEF02CAA75C0BC57F147C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8B8F7E53AA30B0CFBF481A8 /* JikanwariIntents */;
+			targetProxy = 8FFCDC01AF32E32D11E0C26D /* PBXContainerItemProxy */;
+		};
+		80C88DD302E797C728EEE455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93345BA71E6FF3CD8B8C375D /* JikanwariWidget */;
+			targetProxy = AC24BC40B043CB36630FB648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30D7C4AF08022F39231A9C3B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B1B03328DA251FB4DE4DA9 /* en */,
+				8FC290EDB33FF9DE8A398345 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043528DD3E9843E25D30FFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Jikanwari.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ドルトン時間割";
+				INFOPLIST_KEY_NSCameraUsageDescription = "紙の時間割をスキャンして読み込むためにカメラを使います";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiyamamoto.jikanwari;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14FAA156A7DD42C12CF276D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Intents/JikanwariIntents.entitlements;
+				CURRENT_PROJECT_VERSION = 4;
+				INFOPLIST_FILE = Intents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiyamamoto.jikanwari.intents;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5269558875E6DD5369017BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/JikanwariWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 4;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiyamamoto.jikanwari.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		903BCBAA355EB71FC3A00407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/JikanwariWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 4;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiyamamoto.jikanwari.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A524CD777601F06E623C9544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G6X2AA2PJX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B4903BBCC9DA614CE5FEE0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Jikanwari.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ドルトン時間割";
+				INFOPLIST_KEY_NSCameraUsageDescription = "紙の時間割をスキャンして読み込むためにカメラを使います";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiyamamoto.jikanwari;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDBC74C84212A1F655E384FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Intents/JikanwariIntents.entitlements;
+				CURRENT_PROJECT_VERSION = 4;
+				INFOPLIST_FILE = Intents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukiyamamoto.jikanwari.intents;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C620147DB7820BA45DBEDF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G6X2AA2PJX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11C77CF410363BA570FA5C07 /* Build configuration list for PBXNativeTarget "JikanwariWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903BCBAA355EB71FC3A00407 /* Debug */,
+				5269558875E6DD5369017BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		19D63AA28A1F904B32DA33DA /* Build configuration list for PBXProject "Jikanwari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A524CD777601F06E623C9544 /* Debug */,
+				C620147DB7820BA45DBEDF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3B31FA68C26AD1AA30CC3673 /* Build configuration list for PBXNativeTarget "JikanwariIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14FAA156A7DD42C12CF276D4 /* Debug */,
+				BDBC74C84212A1F655E384FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84B074DB393FA3FDB571D170 /* Build configuration list for PBXNativeTarget "Jikanwari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043528DD3E9843E25D30FFDB /* Debug */,
+				B4903BBCC9DA614CE5FEE0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F97BF433553C1CC527A26660 /* Project object */;
+}

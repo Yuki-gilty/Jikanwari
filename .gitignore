@@ -1,0 +1,8 @@
+build/
+*.xcodeproj/xcuserdata/
+Sources/Secrets.swift
+worker/node_modules/
+worker/.wrangler/
+.DS_Store
+xcuserdata/
+*.xcuserstate

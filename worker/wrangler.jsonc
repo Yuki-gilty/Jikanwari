@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jikanwari-reader",
+  // ユーザの個人アカウント(Gmail)に固定。ログイン中のアカウントが別でも、そちらへはデプロイされない
+  "account_id": "c10b175cec48f631d9d552dc81255724",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-22",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": true, "traces": { "enabled": true } },
+  "durable_objects": { "bindings": [{ "name": "READER_QUOTA", "class_name": "ReaderQuota" }] },
+  "migrations": [{ "tag": "v1-reader-quota", "new_sqlite_classes": ["ReaderQuota"] }],
+  "ratelimits": [{ "name": "READER_RATE_LIMIT", "namespace_id": "1001", "simple": { "limit": 2, "period": 60 } }]
+  // シークレット: ANTHROPIC_API_KEY（Claude API キー）, APP_TOKEN（アプリの Sources/Secrets.swift と同じ合言葉）
+}

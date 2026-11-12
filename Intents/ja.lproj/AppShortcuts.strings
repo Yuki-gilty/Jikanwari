@@ -1,0 +1,16 @@
+"Next class in ${applicationName}" = "${applicationName}で次の授業";
+"What's my next class in ${applicationName}" = "${applicationName}で次の授業は何";
+"What's my next class on ${applicationName}" = "${applicationName}の次の授業";
+"What class do I have next in ${applicationName}" = "次の授業を${applicationName}で教えて";
+"Ask ${applicationName} what's next" = "${applicationName}で次の授業を教えて";
+"My next class in ${applicationName}" = "${applicationName}で次の授業は";
+"Next class on ${applicationName}" = "${applicationName} 次の授業";
+"Where is my next class in ${applicationName}" = "${applicationName}で次の教室";
+"What's next in ${applicationName}" = "${applicationName}で次は何";
+"Check my next class in ${applicationName}" = "次の授業を${applicationName}で調べて";
+"Today's classes in ${applicationName}" = "${applicationName}で今日の授業";
+"What classes do I have today in ${applicationName}" = "今日の授業を${applicationName}で教えて";
+"My classes today in ${applicationName}" = "${applicationName}で今日の授業は";
+"Tomorrow's classes in ${applicationName}" = "${applicationName}で明日の授業";
+"What classes do I have tomorrow in ${applicationName}" = "明日の授業を${applicationName}で教えて";
+"My classes tomorrow in ${applicationName}" = "${applicationName}で明日の授業は";

@@ -1,0 +1,9 @@
+"Next Class" = "次の授業";
+"Tells you your next class, its room and when it starts." = "次の授業と教室、始まる時刻を教えます。";
+"Today's Classes" = "今日の授業";
+"Reads out today's classes." = "今日の授業を読み上げます。";
+"Tomorrow's Classes" = "明日の授業";
+"Reads out tomorrow's classes." = "明日の授業を読み上げます。";
+
+/* Siriが日本語なら日本語の答え（2つ目）を読む */
+"answer %@ %@" = "%2$@";
